@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 
 import freemarker.template.utility.Constants;
 
-
+ 
 /**
  * This class has method for fluent wait of different types by provided type of exception ,the fluentwait type is selected
  *

@@ -16,7 +16,7 @@ public class TestDataProvider {
 	ExcelFileReader readExcel;
 	Properties expectedData;
 	
-    
+     
     
     public  TestDataProvider() throws IOException {
     	expectedData=new PropertiesFileReader().loadingPropertyFile(FilePath.EXPECTEDDATA_FILE);

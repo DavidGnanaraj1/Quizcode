@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.atmecs.assessmenttask.utils.LocatorSeparator;
 
-
+ 
 /**
  * This class has methods for explicit wait for different expected conditions
  * and  fluent wait for ignoring  different exceptions

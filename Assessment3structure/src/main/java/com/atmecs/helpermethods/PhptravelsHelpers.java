@@ -35,7 +35,7 @@ public class PhptravelsHelpers {
 	ExplicitWaitHelpers explicitwait = new ExplicitWaitHelpers();
 	DateHandlingHelpers datehandling=new DateHandlingHelpers();
 	public PhptravelsHelpers() throws IOException {
-		
+		  
 	    pageactions = new PageActions();
 	    properties=new PropertiesFileReader().loadingPropertyFile(FilePath.LOCATORS_FILE);
 	    testdata=new PropertiesFileReader().loadingPropertyFile(FilePath.EXPECTEDDATA_FILE);

@@ -1,7 +1,7 @@
 package com.atmecs.assessmenttask.utils;
 
 import org.openqa.selenium.By;
-
+ 
 /**
  * This class is to separate the locators value from the locator type and return
  * the By object

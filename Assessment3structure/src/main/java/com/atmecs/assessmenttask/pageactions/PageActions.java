@@ -17,7 +17,7 @@ import com.atmecs.assessmenttask.constants.FilePath;
 import com.atmecs.assessmenttask.reports.LogReport;
 import com.atmecs.assessmenttask.utils.LocatorSeparator;
 import com.atmecs.assessmenttask.utils.PropertiesFileReader;
-
+ 
 /**
  * This class has methods to perform actions in an element like clicking the
  * element,selecting the dropdown, sending the values to textbox, to check

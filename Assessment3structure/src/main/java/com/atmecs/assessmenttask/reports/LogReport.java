@@ -10,7 +10,7 @@ import com.atmecs.assessmenttask.constants.FilePath;
  *and printing the log statements
  */
 public class LogReport {
-
+ 
 	Logger logger = null;
 
 	public LogReport() {

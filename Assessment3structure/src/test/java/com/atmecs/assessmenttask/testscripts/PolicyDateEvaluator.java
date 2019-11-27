@@ -37,10 +37,10 @@ public class PolicyDateEvaluator extends TestBase {
 	ExcelFileReader excelreader;
 	ExcelFileWriter excelwriter;
 	
-			
+			 
 	 
-	
-	public PolicyDateEvaluator() throws IOException {
+	 
+	public PolicyDateEvaluator() throws IOException { 
 		
 	    pageactions = new PageActions();
 	    properties=new PropertiesFileReader().loadingPropertyFile(FilePath.LOCATORS_FILE);
@@ -53,7 +53,7 @@ public class PolicyDateEvaluator extends TestBase {
 	    excelwriter= new ExcelFileWriter();
 	}
 	
-	@Test
+	//@Test
 	public void policyDateEvaluator() throws IOException {
 		
 		String sheetname=testdata.getProperty("expdata.sheetname");

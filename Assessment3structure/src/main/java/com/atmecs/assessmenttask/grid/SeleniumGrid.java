@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 import com.atmecs.assessmenttask.reports.LogReport;
 
 
-
+ 
 public class SeleniumGrid {
 	public WebDriver driver; 
 	LogReport log =new LogReport();

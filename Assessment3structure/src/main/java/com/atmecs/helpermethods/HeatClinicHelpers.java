@@ -34,6 +34,7 @@ public class HeatClinicHelpers {
 		expecteddata= new PropertiesFileReader().loadingPropertyFile(FilePath.EXPECTEDDATA_FILE);
 	}
      
+     
 	
 	public void checkingFooterLinkText(WebDriver driver) throws InterruptedException {
 		int numberOfFooters=6;

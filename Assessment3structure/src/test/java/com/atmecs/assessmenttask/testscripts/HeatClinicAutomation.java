@@ -34,8 +34,8 @@ public class HeatClinicAutomation extends TestBase{
 		properties=new PropertiesFileReader().loadingPropertyFile(FilePath.LOCATORS_FILE);
 		expecteddata= new PropertiesFileReader().loadingPropertyFile(FilePath.EXPECTEDDATA_FILE);
 	}
-     
-     
+    
+      
 	@Test  (dataProvider="Dataprovider",dataProviderClass=TestDataProvider.class)
 	public void shoppingAutomation(String fromCity,String toCity) throws InterruptedException, IOException {
      	System.out.println(fromCity+" "+toCity);

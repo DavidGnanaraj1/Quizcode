@@ -10,7 +10,7 @@ public class DateHandlingHelpers {
 		Date date = new Date();
 		String currentDate = dateFormat.format(date).toString();
 		return currentDate;
-
+ 
 	}
 
 }

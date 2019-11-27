@@ -18,7 +18,7 @@ import com.atmecs.assessmenttask.utils.PropertiesFileReader;
  * This Class reads browser name and url from the config.properties file and
  * select the browser accordingly and also get the url,maximize the
  * window,implicit wait
- */
+ */ 
 public class TestBase {
 	public WebDriver driver;
 	LogReport log = new LogReport();

@@ -31,7 +31,7 @@ public class PhpTravelsAutomation extends TestBase {
 	LogReport log;
 	AssertionHelpers assertionhelpers;
 	PhptravelsHelpers phptravelshelpers;
- 
+   
 	public PhpTravelsAutomation() throws IOException {
 
 		pageactions = new PageActions();
@@ -43,7 +43,7 @@ public class PhpTravelsAutomation extends TestBase {
 		log = new LogReport();
 	}
 
-	@Test
+	//@Test
 	public void bookingAutomation() throws IOException, InterruptedException {
 	
 		pageactions.sendKeys(driver, properties.getProperty("loc.usernameinputbox"),
